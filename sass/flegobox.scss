@@ -1,0 +1,192 @@
+/*
+A ready to cook simple CSS layout based on Flexbox.
+
+Made with <3 by Octobot
+
+*/
+
+@import "sass-flexbox";
+
+$layout-breakpoint-sm: 600px !default;
+$layout-breakpoint-md: 960px !default;
+$layout-breakpoint-lg: 1200px !default;
+
+// Media queries Mixins
+@mixin size($layout){
+  @if $layout == '' {
+    @content;
+  }
+  // SMALL SCRENS
+  @else if $layout == '-sm' {
+    @media (max-width: $layout-breakpoint-sm - 1) {
+      @content;
+    }
+  }
+  // MEDIUM SCRENS
+  @else if $layout == '-md' {
+    @media (min-width: $layout-breakpoint-sm) and (max-width: $layout-breakpoint-md - 1)  {
+      @content;
+    }
+  }
+  // LARGE SCRENS
+  @else if $layout == '-lg' {
+    @media (min-width: $layout-breakpoint-md) and (max-width: $layout-breakpoint-lg - 1) {
+      @content;
+    }
+  }
+}
+
+$layout-prefixes: "", "-sm", "-md", "-lg" ;
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.no-wrap {
+  @include flex-wrap(nowrap !important);
+}
+
+// blank space distribution
+.around {
+  @include justify-content(space-around);
+}
+
+.between {
+  @include justify-content(space-between);
+}
+
+// self properties
+.self-top {
+  @include align-self-flex-start();
+}
+
+.self-middle {
+  @include align-self-center();
+}
+
+.self-bottom {
+  @include align-self-flex-end();
+}
+
+// MEDIA QUERIES CLASSES
+
+// Iterate in all sizes
+@each $m in $layout-prefixes {
+  @include size(#{$m}) {
+  // order properties
+    .first#{$m} {
+      @include order(-1);
+    }
+
+    .last#{$m} {
+      @include order(1);
+    }
+
+    .flego#{$m}-row {
+      box-sizing: border-box;
+      @include display-flex();
+      @include flex-direction(row);
+      @include flex-wrap(wrap);
+
+      > .flego#{$m} {
+        box-sizing: border-box;
+        @include flex-grow(1);
+        @include flex-basis(0);
+      }
+
+      // the 12 system grid
+      @for $i from 1 through 12 {
+        > .flego#{$m}-#{$i} {
+          box-sizing: border-box;
+          @include flex-grow(1);
+          @include flex-basis(percentage($i/12));
+          max-width: percentage($i/12);
+        }
+      }
+
+      &.reverse {
+        @include flex-direction(row-reverse);
+      }
+
+      // Align properties for "layout row"
+      &.start {
+        @include justify-content-flex-start();
+      }
+
+      &.center {
+        @include justify-content-center();
+      }
+
+      &.end {
+        @include justify-content-flex-end();
+      }
+
+      &.top {
+        @include align-items-flex-start();
+      }
+
+      &.middle {
+        @include align-items-center();
+      }
+
+      &.bottom {
+        @include align-items-flex-end();
+      }
+    }
+
+    .flego#{$m}-column {
+      box-sizing: border-box;
+      @include display-flex();
+      @include flex-direction(column);
+      @include flex-wrap(wrap);
+
+      &.reverse {
+        @include flex-direction(column-reverse);
+      }
+
+      > .flego {
+        box-sizing: border-box;
+        @include flex-grow(1);
+        @include flex-basis(auto);
+      }
+
+      // the 12 system grid
+      @for $i from 1 through 12 {
+        > .flego#{$m}-#{$i} {
+          @include flex-grow(1);
+          @include flex-basis(percentage($i/12));
+          max-height: percentage($i/12);
+          box-sizing: border-box;
+        }
+      }
+
+      > * {
+          max-width: 100%;
+      }
+
+      &.center,
+      &.start,
+      &.end {
+        @include align-items-inherit();
+        @include justify-content-inherit();
+      }
+
+      // Align properties for "layout column"
+      &.top {
+        @include justify-content-flex-start();
+        @include align-items-inherit();
+      }
+
+      &.middle {
+        @include justify-content-center();
+        @include align-items-inherit();
+      }
+
+      &.bottom {
+        @include justify-content-flex-end();
+        @include align-items-inherit();
+      }
+    }
+  }
+}

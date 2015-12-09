@@ -1,0 +1,457 @@
+/* Made using SassFlexbox */
+// SassFlexbox
+// Manage Flexbox in Sass easily.
+//
+// @author     Samuel Marchal (zessx)
+// @version    0.1
+
+@mixin display-flex() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+@mixin display-inline-flex() {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+
+@mixin flex-direction-row() {
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+@mixin flex-direction-row-reverse() {
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -moz-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -moz-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+@mixin flex-direction-column() {
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+@mixin flex-direction-column-reverse() {
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -moz-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -moz-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+@mixin flex-direction-inherit() {
+    -webkit-box-orient: inherit;
+    -moz-box-orient: inherit;
+    -webkit-flex-direction: inherit;
+    -moz-flex-direction: inherit;
+    -ms-flex-direction: inherit;
+    flex-direction: inherit;
+}
+@mixin flex-direction($direction: row) {
+  @if $direction == row-reverse{
+    @include flex-direction-row-reverse();
+  }
+  @elseif $direction == column{
+    @include flex-direction-column();
+  }
+  @elseif $direction == column-reverse{
+    @include flex-direction-column();
+  }
+  @elseif $direction == inherit{
+    @include flex-direction-column();
+  }
+  @else{
+    @include flex-direction-row();
+  }
+  //@if not index((row, row-reverse, column, column-reverse, inherit), $direction) {
+  //    $direction: row;
+  //}
+  //@include flex-direction-#{$direction}();
+}
+
+@mixin flex-wrap-nowrap() {
+    -webkit-flex-wrap: nowrap;
+    -moz-flex-wrap: nowrap;
+    -ms-flex-wrap: none;
+    flex-wrap: nowrap;
+}
+@mixin flex-wrap-wrap() {
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+@mixin flex-wrap-wrap-reverse() {
+    -webkit-flex-wrap: wrap-reverse;
+    -moz-flex-wrap: wrap-reverse;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+}
+@mixin flex-wrap-inherit() {
+    -webkit-flex-wrap: inherit;
+    -moz-flex-wrap: inherit;
+    -ms-flex-wrap: inherit;
+    flex-wrap: inherit;
+}
+@mixin flex-wrap($wrap: nowrap) {
+  @if $wrap == wrap{
+    @include flex-wrap-wrap();
+  }
+  @elseif $wrap == wrap-reverse{
+    @include flex-wrap-wrap-reverse();
+  }
+  @elseif $wrap == column-reverse{
+    @include flex-wrap-column();
+  }
+  @elseif $wrap == inherit{
+    @include flex-wrap-inherit();
+  }
+  @else{
+    @include flex-wrap-nowrap();
+  }
+  //@if not index((nowrap, wrap, wrap-reverse, inherit), $wrap) {
+  //    $wrap: nowrap;
+  //}
+  //@include flex-wrap-#{$wrap}();
+}
+
+@mixin flex-flow($direction, $wrap) {
+    @include flex-direction($direction);
+    @include flex-wrap($wrap);
+}
+
+@mixin order($order: 0) {
+    -webkit-box-ordinal-group: ($order + 1);
+    -moz-box-ordinal-group: $order;
+    -ms-flex-order: $order;
+    -webkit-order: $order;
+    -moz-order: $order;
+    order: $order;
+}
+
+@mixin flex-grow($grow: 0) {
+    -webkit-flex-grow: $grow;
+    -webkit-box-flex: $grow;
+    -moz-flex-grow: $grow;
+    -ms-flex-positive: $grow;
+    flex-grow: $grow;
+}
+
+@mixin flex-shrink($shrink: 1) {
+    -webkit-flex-shrink: $shrink;
+    -webkit-box-flex: $shrink;
+    -moz-flex-shrink: $shrink;
+    -ms-flex-negative: $shrink;
+    flex-shrink: $shrink;
+}
+
+@mixin flex-basis($basis: auto) {
+    -webkit-flex-basis: $basis;
+    -moz-flex-basis: $basis;
+    -ms-flex-preferred-size: $basis;
+    flex-basis: $basis;
+}
+
+@mixin flex($grow: 0, $shrink: 1, $basis: auto) {
+    @include flex-grow($grow);
+    @include flex-shrink($shrink);
+    @include flex-basis($basis);
+}
+
+@mixin justify-content-flex-start() {
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -webkit-flex-pack: start;
+    -ms-flex-pack: start;
+    -moz-justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+@mixin justify-content-flex-end() {
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    -webkit-flex-pack: end;
+    -ms-flex-pack: end;
+    -moz-justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+@mixin justify-content-center() {
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-flex-pack: center;
+    -ms-flex-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+@mixin justify-content-space-between() {
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -webkit-flex-pack: justify;
+    -ms-flex-pack: justify;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+@mixin justify-content-space-around() {
+    -moz-justify-content: space-around;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+@mixin justify-content-inherit() {
+    -webkit-box-pack: inherit;
+    -moz-box-pack: inherit;
+    -webkit-flex-pack: inherit;
+    -ms-flex-pack: inherit;
+    -moz-justify-content: inherit;
+    -webkit-justify-content: inherit;
+    justify-content: inherit;
+}
+
+@mixin justify-content($justify: flex-start) {
+  @if $justify == flex-end{
+    @include justify-content-flex-end();
+  }
+  @elseif $justify == center{
+    @include justify-content-center();
+  }
+  @elseif $justify == space-between{
+    @include justify-content-space-between();
+  }
+  @elseif $justify == space-around{
+    @include justify-content-space-around();
+  }
+  @elseif $justify == inherit{
+    @include justify-content-inherit();
+  }
+  @else{
+    @include justify-content-flex-start();
+  }
+  //a@if not index((flex-start, flex-end, center, space-between, space-around, inherit), $justify) {
+  //a    $justify: flex-start;
+  //a}
+  //a@extend %justify-content-#{$justify};
+}
+
+@mixin align-items-flex-start() {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    -moz-align-items: flex-start;
+    align-items: flex-start;
+}
+@mixin align-items-flex-end() {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    -webkit-align-items: flex-end;
+    -moz-align-items: flex-end;
+    align-items: flex-end;
+}
+@mixin align-items-center() {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+}
+@mixin align-items-baseline() {
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    -webkit-align-items: baseline;
+    -moz-align-items: baseline;
+    align-items: baseline;
+}
+@mixin align-items-stretch() {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    -webkit-align-items: stretch;
+    -moz-align-items: stretch;
+    align-items: stretch;
+}
+@mixin align-items-inherit() {
+    -webkit-box-align: inherit;
+    -ms-flex-align: inherit;
+    -webkit-align-items: inherit;
+    -moz-align-items: inherit;
+    align-items: inherit;
+}
+@mixin align-items($align: stretch) {
+  @if $align == flex-start{
+    @include align-items-flex-start();
+  }
+  @elseif $align == flex-end{
+    @include align-items-flex-end();
+  }
+  @elseif $align == center{
+    @include align-items-center();
+  }
+  @elseif $align == baseline{
+    @include align-items-baseline();
+  }
+  @elseif $align == inherit{
+    @include align-items-inherit();
+  }
+  @else{
+    @include align-items-stretch();
+  }
+  //@if not index((flex-start, flex-end, center, baseline, stretch, inherit), $align) {
+  //    $align: stretch;
+  //}
+  //@extend %align-items-#{$align};
+}
+
+@mixin align-self-auto() {
+  -ms-flex-item-align: auto;
+  -webkit-align-self: auto;
+  -moz-align-self: auto;
+  align-self: auto;
+}
+@mixin align-self-flex-start() {
+  -ms-flex-item-align: start;
+  -webkit-align-self: flex-start;
+  -moz-align-self: flex-start;
+  align-self: flex-start;
+}
+@mixin align-self-flex-end() {
+  -ms-flex-item-align: end;
+  -webkit-align-self: flex-end;
+  -moz-align-self: flex-end;
+  align-self: flex-end;
+}
+@mixin align-self-center() {
+  -ms-flex-item-align: center;
+  -webkit-align-self: center;
+  -moz-align-self: center;
+  align-self: center;
+}
+@mixin align-self-baseline() {
+  -ms-flex-item-align: baseline;
+  -webkit-align-self: baseline;
+  -moz-align-self: baseline;
+  align-self: baseline;
+}
+@mixin align-self-stretch() {
+  -ms-flex-item-align: stretch;
+  -webkit-align-self: stretch;
+  -moz-align-self: stretch;
+  align-self: stretch;
+}
+@mixin align-self-inherit() {
+  -ms-flex-item-align: inherit;
+  -webkit-align-self: inherit;
+  -moz-align-self: inherit;
+  align-self: inherit;
+}
+@mixin align-self($align: auto) {
+  @if $align == flex-start{
+    @include align-self-flex-start();
+  }
+  @elseif $align == flex-end{
+    @include align-self-flex-end();
+  }
+  @elseif $align == center{
+    @include align-self-center();
+  }
+  @elseif $align == baseline{
+    @include align-self-baseline();
+  }
+  @elseif $align == inherit{
+    @include align-self-inherit();
+  }
+  @elseif $align == stretch{
+    @include align-self-stretch();
+  }
+  @else{
+    @include align-self-auto();
+  }
+  //@if not index((auto, flex-start, flex-end, center, baseline, stretch, inherit), $align) {
+  //    $align: auto;
+  //}
+  //@extend %align-self-#{$align};
+}
+
+@mixin align-content-flex-start() {
+    -ms-flex-line-pack: start;
+    -webkit-align-content: flex-start;
+    -moz-align-content: flex-start;
+    align-content: flex-start;
+}
+@mixin align-content-flex-end() {
+    -ms-flex-line-pack: end;
+    -webkit-align-content: flex-end;
+    -moz-align-content: flex-end;
+    align-content: flex-end;
+}
+@mixin align-content-center() {
+    -ms-flex-line-pack: center;
+    -webkit-align-content: center;
+    -moz-align-content: center;
+    align-content: center;
+}
+@mixin align-content-space-between() {
+    -ms-flex-line-pack: space-between;
+    -webkit-align-content: space-between;
+    -moz-align-content: space-between;
+    align-content: space-between;
+}
+@mixin align-content-space-around() {
+    -ms-flex-line-pack: space-around;
+    -webkit-align-content: space-around;
+    -moz-align-content: space-around;
+    align-content: space-around;
+}
+@mixin align-content-stretch() {
+    -ms-flex-line-pack: stretch;
+    -webkit-align-content: stretch;
+    -moz-align-content: stretch;
+    align-content: stretch;
+}
+@mixin align-content-inherit() {
+    -ms-flex-line-pack: inherit;
+    -webkit-align-content: inherit;
+    -moz-align-content: inherit;
+    align-content: inherit;
+}
+@mixin align-content($align: stretch) {
+  @if $align == flex-start{
+    @include align-content-flex-start();
+  }
+  @elseif $align == flex-end{
+    @include align-content-flex-end();
+  }
+  @elseif $align == center{
+    @include align-content-center();
+  }
+  @elseif $align == space-between{
+    @include align-content-space-between();
+  }
+  @elseif $align == space-around{
+    @include align-content-space-around();
+  }
+  @elseif $align == inherit{
+    @include align-content-inherit();
+  }
+  @else{
+    @include align-content-stretch();
+  }
+  //@if not index((flex-start, flex-end, center, space-between, space-around, stretch, inherit), $align) {
+  //    $align: stretch;
+  //}
+  //@extend %align-content-#{$align};
+}

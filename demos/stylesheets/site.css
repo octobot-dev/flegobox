@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Verano';
+  src: url("../fonts/Verano.otf") format("opentype");
+}
+/* line 6, ../sass/site.scss */
+body {
+  font-family: 'Verano';
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+}
+
+/* line 12, ../sass/site.scss */
+.box {
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+}
+
+/* line 17, ../sass/site.scss */
+.box1 {
+  background-color: #A7BAFF;
+}
+
+/* line 12, ../sass/site.scss */
+.box2 {
+  background-color: #9DF18D;
+}
+
+.box3 {
+  background-color: #FFD095;
+}
+/* line 22, ../sass/site.scss */
+.outer {
+  border: 2px solid #F6E7F5;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.static-height {
+  height: 500px;
+}
