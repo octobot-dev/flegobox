@@ -139,7 +139,7 @@ $layout-prefixes: "", "-sm", "-md", "-lg" ;
       box-sizing: border-box;
       @include display-flex();
       @include flex-direction(column);
-      @include flex-wrap(wrap);
+      
 
       &.reverse {
         @include flex-direction(column-reverse);

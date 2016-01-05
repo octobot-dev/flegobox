@@ -5,28 +5,21 @@ Made with <3 by Octobot
 
 */
 /* Made using SassFlexbox */
-/* line 41, ../sass/flegobox.scss */
 .container {
   margin-right: auto;
-  margin-left: auto;
-}
+  margin-left: auto; }
 
-/* line 46, ../sass/flegobox.scss */
 .no-wrap {
   -webkit-flex-wrap: nowrap;
   -moz-flex-wrap: nowrap;
   -ms-flex-wrap: none;
-  flex-wrap: nowrap;
-}
+  flex-wrap: nowrap; }
 
-/* line 51, ../sass/flegobox.scss */
 .around {
   -moz-justify-content: space-around;
   -webkit-justify-content: space-around;
-  justify-content: space-around;
-}
+  justify-content: space-around; }
 
-/* line 55, ../sass/flegobox.scss */
 .between {
   -webkit-box-pack: justify;
   -moz-box-pack: justify;
@@ -34,54 +27,42 @@ Made with <3 by Octobot
   -ms-flex-pack: justify;
   -moz-justify-content: space-between;
   -webkit-justify-content: space-between;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
-/* line 60, ../sass/flegobox.scss */
 .self-top {
   -ms-flex-item-align: start;
   -webkit-align-self: flex-start;
   -moz-align-self: flex-start;
-  align-self: flex-start;
-}
+  align-self: flex-start; }
 
-/* line 64, ../sass/flegobox.scss */
 .self-middle {
   -ms-flex-item-align: center;
   -webkit-align-self: center;
   -moz-align-self: center;
-  align-self: center;
-}
+  align-self: center; }
 
-/* line 68, ../sass/flegobox.scss */
 .self-bottom {
   -ms-flex-item-align: end;
   -webkit-align-self: flex-end;
   -moz-align-self: flex-end;
-  align-self: flex-end;
-}
+  align-self: flex-end; }
 
-/* line 78, ../sass/flegobox.scss */
 .first {
   -webkit-box-ordinal-group: 0;
   -moz-box-ordinal-group: -1;
   -ms-flex-order: -1;
   -webkit-order: -1;
   -moz-order: -1;
-  order: -1;
-}
+  order: -1; }
 
-/* line 82, ../sass/flegobox.scss */
 .last {
   -webkit-box-ordinal-group: 2;
   -moz-box-ordinal-group: 1;
   -ms-flex-order: 1;
   -webkit-order: 1;
   -moz-order: 1;
-  order: 1;
-}
+  order: 1; }
 
-/* line 86, ../sass/flegobox.scss */
 .flego-row {
   box-sizing: border-box;
   display: -webkit-box;
@@ -99,256 +80,214 @@ Made with <3 by Octobot
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-/* line 92, ../sass/flegobox.scss */
-.flego-row > .flego {
-  box-sizing: border-box;
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 0;
-  -moz-flex-basis: 0;
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-}
-/* line 100, ../sass/flegobox.scss */
-.flego-row > .flego-1 {
-  box-sizing: border-box;
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 8.33333%;
-  -moz-flex-basis: 8.33333%;
-  -ms-flex-preferred-size: 8.33333%;
-  flex-basis: 8.33333%;
-  max-width: 8.33333%;
-}
-/* line 100, ../sass/flegobox.scss */
-.flego-row > .flego-2 {
-  box-sizing: border-box;
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 16.66667%;
-  -moz-flex-basis: 16.66667%;
-  -ms-flex-preferred-size: 16.66667%;
-  flex-basis: 16.66667%;
-  max-width: 16.66667%;
-}
-/* line 100, ../sass/flegobox.scss */
-.flego-row > .flego-3 {
-  box-sizing: border-box;
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 25%;
-  -moz-flex-basis: 25%;
-  -ms-flex-preferred-size: 25%;
-  flex-basis: 25%;
-  max-width: 25%;
-}
-/* line 100, ../sass/flegobox.scss */
-.flego-row > .flego-4 {
-  box-sizing: border-box;
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 33.33333%;
-  -moz-flex-basis: 33.33333%;
-  -ms-flex-preferred-size: 33.33333%;
-  flex-basis: 33.33333%;
-  max-width: 33.33333%;
-}
-/* line 100, ../sass/flegobox.scss */
-.flego-row > .flego-5 {
-  box-sizing: border-box;
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 41.66667%;
-  -moz-flex-basis: 41.66667%;
-  -ms-flex-preferred-size: 41.66667%;
-  flex-basis: 41.66667%;
-  max-width: 41.66667%;
-}
-/* line 100, ../sass/flegobox.scss */
-.flego-row > .flego-6 {
-  box-sizing: border-box;
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 50%;
-  -moz-flex-basis: 50%;
-  -ms-flex-preferred-size: 50%;
-  flex-basis: 50%;
-  max-width: 50%;
-}
-/* line 100, ../sass/flegobox.scss */
-.flego-row > .flego-7 {
-  box-sizing: border-box;
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 58.33333%;
-  -moz-flex-basis: 58.33333%;
-  -ms-flex-preferred-size: 58.33333%;
-  flex-basis: 58.33333%;
-  max-width: 58.33333%;
-}
-/* line 100, ../sass/flegobox.scss */
-.flego-row > .flego-8 {
-  box-sizing: border-box;
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 66.66667%;
-  -moz-flex-basis: 66.66667%;
-  -ms-flex-preferred-size: 66.66667%;
-  flex-basis: 66.66667%;
-  max-width: 66.66667%;
-}
-/* line 100, ../sass/flegobox.scss */
-.flego-row > .flego-9 {
-  box-sizing: border-box;
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 75%;
-  -moz-flex-basis: 75%;
-  -ms-flex-preferred-size: 75%;
-  flex-basis: 75%;
-  max-width: 75%;
-}
-/* line 100, ../sass/flegobox.scss */
-.flego-row > .flego-10 {
-  box-sizing: border-box;
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 83.33333%;
-  -moz-flex-basis: 83.33333%;
-  -ms-flex-preferred-size: 83.33333%;
-  flex-basis: 83.33333%;
-  max-width: 83.33333%;
-}
-/* line 100, ../sass/flegobox.scss */
-.flego-row > .flego-11 {
-  box-sizing: border-box;
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 91.66667%;
-  -moz-flex-basis: 91.66667%;
-  -ms-flex-preferred-size: 91.66667%;
-  flex-basis: 91.66667%;
-  max-width: 91.66667%;
-}
-/* line 100, ../sass/flegobox.scss */
-.flego-row > .flego-12 {
-  box-sizing: border-box;
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 100%;
-  -moz-flex-basis: 100%;
-  -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
-  max-width: 100%;
-}
-/* line 108, ../sass/flegobox.scss */
-.flego-row.reverse {
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-  -moz-box-direction: reverse;
-  -webkit-flex-direction: row-reverse;
-  -moz-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-}
-/* line 113, ../sass/flegobox.scss */
-.flego-row.start {
-  -webkit-box-pack: start;
-  -moz-box-pack: start;
-  -webkit-flex-pack: start;
-  -ms-flex-pack: start;
-  -moz-justify-content: flex-start;
-  -webkit-justify-content: flex-start;
-  justify-content: flex-start;
-}
-/* line 117, ../sass/flegobox.scss */
-.flego-row.center {
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  -webkit-flex-pack: center;
-  -ms-flex-pack: center;
-  -moz-justify-content: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-}
-/* line 121, ../sass/flegobox.scss */
-.flego-row.end {
-  -webkit-box-pack: end;
-  -moz-box-pack: end;
-  -webkit-flex-pack: end;
-  -ms-flex-pack: end;
-  -moz-justify-content: flex-end;
-  -webkit-justify-content: flex-end;
-  justify-content: flex-end;
-}
-/* line 125, ../sass/flegobox.scss */
-.flego-row.top {
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  -webkit-align-items: flex-start;
-  -moz-align-items: flex-start;
-  align-items: flex-start;
-}
-/* line 129, ../sass/flegobox.scss */
-.flego-row.middle {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  align-items: center;
-}
-/* line 133, ../sass/flegobox.scss */
-.flego-row.bottom {
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  -webkit-align-items: flex-end;
-  -moz-align-items: flex-end;
-  align-items: flex-end;
-}
+  flex-wrap: wrap; }
+  .flego-row > .flego {
+    box-sizing: border-box;
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 0;
+    -moz-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0; }
+  .flego-row > .flego-1 {
+    box-sizing: border-box;
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 8.33333%;
+    -moz-flex-basis: 8.33333%;
+    -ms-flex-preferred-size: 8.33333%;
+    flex-basis: 8.33333%;
+    max-width: 8.33333%; }
+  .flego-row > .flego-2 {
+    box-sizing: border-box;
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 16.66667%;
+    -moz-flex-basis: 16.66667%;
+    -ms-flex-preferred-size: 16.66667%;
+    flex-basis: 16.66667%;
+    max-width: 16.66667%; }
+  .flego-row > .flego-3 {
+    box-sizing: border-box;
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 25%;
+    -moz-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    max-width: 25%; }
+  .flego-row > .flego-4 {
+    box-sizing: border-box;
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 33.33333%;
+    -moz-flex-basis: 33.33333%;
+    -ms-flex-preferred-size: 33.33333%;
+    flex-basis: 33.33333%;
+    max-width: 33.33333%; }
+  .flego-row > .flego-5 {
+    box-sizing: border-box;
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 41.66667%;
+    -moz-flex-basis: 41.66667%;
+    -ms-flex-preferred-size: 41.66667%;
+    flex-basis: 41.66667%;
+    max-width: 41.66667%; }
+  .flego-row > .flego-6 {
+    box-sizing: border-box;
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 50%;
+    -moz-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%; }
+  .flego-row > .flego-7 {
+    box-sizing: border-box;
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 58.33333%;
+    -moz-flex-basis: 58.33333%;
+    -ms-flex-preferred-size: 58.33333%;
+    flex-basis: 58.33333%;
+    max-width: 58.33333%; }
+  .flego-row > .flego-8 {
+    box-sizing: border-box;
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 66.66667%;
+    -moz-flex-basis: 66.66667%;
+    -ms-flex-preferred-size: 66.66667%;
+    flex-basis: 66.66667%;
+    max-width: 66.66667%; }
+  .flego-row > .flego-9 {
+    box-sizing: border-box;
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 75%;
+    -moz-flex-basis: 75%;
+    -ms-flex-preferred-size: 75%;
+    flex-basis: 75%;
+    max-width: 75%; }
+  .flego-row > .flego-10 {
+    box-sizing: border-box;
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 83.33333%;
+    -moz-flex-basis: 83.33333%;
+    -ms-flex-preferred-size: 83.33333%;
+    flex-basis: 83.33333%;
+    max-width: 83.33333%; }
+  .flego-row > .flego-11 {
+    box-sizing: border-box;
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 91.66667%;
+    -moz-flex-basis: 91.66667%;
+    -ms-flex-preferred-size: 91.66667%;
+    flex-basis: 91.66667%;
+    max-width: 91.66667%; }
+  .flego-row > .flego-12 {
+    box-sizing: border-box;
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 100%;
+    -moz-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%; }
+  .flego-row.reverse {
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -moz-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -moz-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse; }
+  .flego-row.start {
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -webkit-flex-pack: start;
+    -ms-flex-pack: start;
+    -moz-justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start; }
+  .flego-row.center {
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-flex-pack: center;
+    -ms-flex-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center; }
+  .flego-row.end {
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    -webkit-flex-pack: end;
+    -ms-flex-pack: end;
+    -moz-justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end; }
+  .flego-row.top {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    -moz-align-items: flex-start;
+    align-items: flex-start; }
+  .flego-row.middle {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center; }
+  .flego-row.bottom {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    -webkit-align-items: flex-end;
+    -moz-align-items: flex-end;
+    align-items: flex-end; }
 
-/* line 138, ../sass/flegobox.scss */
 .flego-column {
   box-sizing: border-box;
   display: -webkit-box;
@@ -362,289 +301,241 @@ Made with <3 by Octobot
   -webkit-flex-direction: column;
   -moz-flex-direction: column;
   -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-/* line 144, ../sass/flegobox.scss */
-.flego-column.reverse {
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  -webkit-flex-direction: column;
-  -moz-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-/* line 148, ../sass/flegobox.scss */
-.flego-column > .flego {
-  box-sizing: border-box;
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: auto;
-  -moz-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-}
-/* line 156, ../sass/flegobox.scss */
-.flego-column > .flego-1 {
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 8.33333%;
-  -moz-flex-basis: 8.33333%;
-  -ms-flex-preferred-size: 8.33333%;
-  flex-basis: 8.33333%;
-  max-height: 8.33333%;
-  box-sizing: border-box;
-}
-/* line 156, ../sass/flegobox.scss */
-.flego-column > .flego-2 {
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 16.66667%;
-  -moz-flex-basis: 16.66667%;
-  -ms-flex-preferred-size: 16.66667%;
-  flex-basis: 16.66667%;
-  max-height: 16.66667%;
-  box-sizing: border-box;
-}
-/* line 156, ../sass/flegobox.scss */
-.flego-column > .flego-3 {
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 25%;
-  -moz-flex-basis: 25%;
-  -ms-flex-preferred-size: 25%;
-  flex-basis: 25%;
-  max-height: 25%;
-  box-sizing: border-box;
-}
-/* line 156, ../sass/flegobox.scss */
-.flego-column > .flego-4 {
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 33.33333%;
-  -moz-flex-basis: 33.33333%;
-  -ms-flex-preferred-size: 33.33333%;
-  flex-basis: 33.33333%;
-  max-height: 33.33333%;
-  box-sizing: border-box;
-}
-/* line 156, ../sass/flegobox.scss */
-.flego-column > .flego-5 {
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 41.66667%;
-  -moz-flex-basis: 41.66667%;
-  -ms-flex-preferred-size: 41.66667%;
-  flex-basis: 41.66667%;
-  max-height: 41.66667%;
-  box-sizing: border-box;
-}
-/* line 156, ../sass/flegobox.scss */
-.flego-column > .flego-6 {
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 50%;
-  -moz-flex-basis: 50%;
-  -ms-flex-preferred-size: 50%;
-  flex-basis: 50%;
-  max-height: 50%;
-  box-sizing: border-box;
-}
-/* line 156, ../sass/flegobox.scss */
-.flego-column > .flego-7 {
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 58.33333%;
-  -moz-flex-basis: 58.33333%;
-  -ms-flex-preferred-size: 58.33333%;
-  flex-basis: 58.33333%;
-  max-height: 58.33333%;
-  box-sizing: border-box;
-}
-/* line 156, ../sass/flegobox.scss */
-.flego-column > .flego-8 {
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 66.66667%;
-  -moz-flex-basis: 66.66667%;
-  -ms-flex-preferred-size: 66.66667%;
-  flex-basis: 66.66667%;
-  max-height: 66.66667%;
-  box-sizing: border-box;
-}
-/* line 156, ../sass/flegobox.scss */
-.flego-column > .flego-9 {
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 75%;
-  -moz-flex-basis: 75%;
-  -ms-flex-preferred-size: 75%;
-  flex-basis: 75%;
-  max-height: 75%;
-  box-sizing: border-box;
-}
-/* line 156, ../sass/flegobox.scss */
-.flego-column > .flego-10 {
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 83.33333%;
-  -moz-flex-basis: 83.33333%;
-  -ms-flex-preferred-size: 83.33333%;
-  flex-basis: 83.33333%;
-  max-height: 83.33333%;
-  box-sizing: border-box;
-}
-/* line 156, ../sass/flegobox.scss */
-.flego-column > .flego-11 {
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 91.66667%;
-  -moz-flex-basis: 91.66667%;
-  -ms-flex-preferred-size: 91.66667%;
-  flex-basis: 91.66667%;
-  max-height: 91.66667%;
-  box-sizing: border-box;
-}
-/* line 156, ../sass/flegobox.scss */
-.flego-column > .flego-12 {
-  -webkit-flex-grow: 1;
-  -webkit-box-flex: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 100%;
-  -moz-flex-basis: 100%;
-  -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
-  max-height: 100%;
-  box-sizing: border-box;
-}
-/* line 164, ../sass/flegobox.scss */
-.flego-column > * {
-  max-width: 100%;
-}
-/* line 168, ../sass/flegobox.scss */
-.flego-column.center, .flego-column.start, .flego-column.end {
-  -webkit-box-align: inherit;
-  -ms-flex-align: inherit;
-  -webkit-align-items: inherit;
-  -moz-align-items: inherit;
-  align-items: inherit;
-  -webkit-box-pack: inherit;
-  -moz-box-pack: inherit;
-  -webkit-flex-pack: inherit;
-  -ms-flex-pack: inherit;
-  -moz-justify-content: inherit;
-  -webkit-justify-content: inherit;
-  justify-content: inherit;
-}
-/* line 176, ../sass/flegobox.scss */
-.flego-column.top {
-  -webkit-box-pack: start;
-  -moz-box-pack: start;
-  -webkit-flex-pack: start;
-  -ms-flex-pack: start;
-  -moz-justify-content: flex-start;
-  -webkit-justify-content: flex-start;
-  justify-content: flex-start;
-  -webkit-box-align: inherit;
-  -ms-flex-align: inherit;
-  -webkit-align-items: inherit;
-  -moz-align-items: inherit;
-  align-items: inherit;
-}
-/* line 181, ../sass/flegobox.scss */
-.flego-column.middle {
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  -webkit-flex-pack: center;
-  -ms-flex-pack: center;
-  -moz-justify-content: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: inherit;
-  -ms-flex-align: inherit;
-  -webkit-align-items: inherit;
-  -moz-align-items: inherit;
-  align-items: inherit;
-}
-/* line 186, ../sass/flegobox.scss */
-.flego-column.bottom {
-  -webkit-box-pack: end;
-  -moz-box-pack: end;
-  -webkit-flex-pack: end;
-  -ms-flex-pack: end;
-  -moz-justify-content: flex-end;
-  -webkit-justify-content: flex-end;
-  justify-content: flex-end;
-  -webkit-box-align: inherit;
-  -ms-flex-align: inherit;
-  -webkit-align-items: inherit;
-  -moz-align-items: inherit;
-  align-items: inherit;
-}
+  flex-direction: column; }
+  .flego-column.reverse {
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .flego-column > .flego {
+    box-sizing: border-box;
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: auto;
+    -moz-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto; }
+  .flego-column > .flego-1 {
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 8.33333%;
+    -moz-flex-basis: 8.33333%;
+    -ms-flex-preferred-size: 8.33333%;
+    flex-basis: 8.33333%;
+    max-height: 8.33333%;
+    box-sizing: border-box; }
+  .flego-column > .flego-2 {
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 16.66667%;
+    -moz-flex-basis: 16.66667%;
+    -ms-flex-preferred-size: 16.66667%;
+    flex-basis: 16.66667%;
+    max-height: 16.66667%;
+    box-sizing: border-box; }
+  .flego-column > .flego-3 {
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 25%;
+    -moz-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    max-height: 25%;
+    box-sizing: border-box; }
+  .flego-column > .flego-4 {
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 33.33333%;
+    -moz-flex-basis: 33.33333%;
+    -ms-flex-preferred-size: 33.33333%;
+    flex-basis: 33.33333%;
+    max-height: 33.33333%;
+    box-sizing: border-box; }
+  .flego-column > .flego-5 {
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 41.66667%;
+    -moz-flex-basis: 41.66667%;
+    -ms-flex-preferred-size: 41.66667%;
+    flex-basis: 41.66667%;
+    max-height: 41.66667%;
+    box-sizing: border-box; }
+  .flego-column > .flego-6 {
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 50%;
+    -moz-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-height: 50%;
+    box-sizing: border-box; }
+  .flego-column > .flego-7 {
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 58.33333%;
+    -moz-flex-basis: 58.33333%;
+    -ms-flex-preferred-size: 58.33333%;
+    flex-basis: 58.33333%;
+    max-height: 58.33333%;
+    box-sizing: border-box; }
+  .flego-column > .flego-8 {
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 66.66667%;
+    -moz-flex-basis: 66.66667%;
+    -ms-flex-preferred-size: 66.66667%;
+    flex-basis: 66.66667%;
+    max-height: 66.66667%;
+    box-sizing: border-box; }
+  .flego-column > .flego-9 {
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 75%;
+    -moz-flex-basis: 75%;
+    -ms-flex-preferred-size: 75%;
+    flex-basis: 75%;
+    max-height: 75%;
+    box-sizing: border-box; }
+  .flego-column > .flego-10 {
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 83.33333%;
+    -moz-flex-basis: 83.33333%;
+    -ms-flex-preferred-size: 83.33333%;
+    flex-basis: 83.33333%;
+    max-height: 83.33333%;
+    box-sizing: border-box; }
+  .flego-column > .flego-11 {
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 91.66667%;
+    -moz-flex-basis: 91.66667%;
+    -ms-flex-preferred-size: 91.66667%;
+    flex-basis: 91.66667%;
+    max-height: 91.66667%;
+    box-sizing: border-box; }
+  .flego-column > .flego-12 {
+    -webkit-flex-grow: 1;
+    -webkit-box-flex: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 100%;
+    -moz-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-height: 100%;
+    box-sizing: border-box; }
+  .flego-column > * {
+    max-width: 100%; }
+  .flego-column.center, .flego-column.start, .flego-column.end {
+    -webkit-box-align: inherit;
+    -ms-flex-align: inherit;
+    -webkit-align-items: inherit;
+    -moz-align-items: inherit;
+    align-items: inherit;
+    -webkit-box-pack: inherit;
+    -moz-box-pack: inherit;
+    -webkit-flex-pack: inherit;
+    -ms-flex-pack: inherit;
+    -moz-justify-content: inherit;
+    -webkit-justify-content: inherit;
+    justify-content: inherit; }
+  .flego-column.top {
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -webkit-flex-pack: start;
+    -ms-flex-pack: start;
+    -moz-justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-box-align: inherit;
+    -ms-flex-align: inherit;
+    -webkit-align-items: inherit;
+    -moz-align-items: inherit;
+    align-items: inherit; }
+  .flego-column.middle {
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-flex-pack: center;
+    -ms-flex-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: inherit;
+    -ms-flex-align: inherit;
+    -webkit-align-items: inherit;
+    -moz-align-items: inherit;
+    align-items: inherit; }
+  .flego-column.bottom {
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    -webkit-flex-pack: end;
+    -ms-flex-pack: end;
+    -moz-justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    -webkit-box-align: inherit;
+    -ms-flex-align: inherit;
+    -webkit-align-items: inherit;
+    -moz-align-items: inherit;
+    align-items: inherit; }
 
 @media (max-width: 599px) {
-  /* line 78, ../sass/flegobox.scss */
   .first-sm {
     -webkit-box-ordinal-group: 0;
     -moz-box-ordinal-group: -1;
     -ms-flex-order: -1;
     -webkit-order: -1;
     -moz-order: -1;
-    order: -1;
-  }
+    order: -1; }
 
-  /* line 82, ../sass/flegobox.scss */
   .last-sm {
     -webkit-box-ordinal-group: 2;
     -moz-box-ordinal-group: 1;
     -ms-flex-order: 1;
     -webkit-order: 1;
     -moz-order: 1;
-    order: 1;
-  }
+    order: 1; }
 
-  /* line 86, ../sass/flegobox.scss */
   .flego-sm-row {
     box-sizing: border-box;
     display: -webkit-box;
@@ -662,256 +553,214 @@ Made with <3 by Octobot
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  /* line 92, ../sass/flegobox.scss */
-  .flego-sm-row > .flego-sm {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 0;
-    -moz-flex-basis: 0;
-    -ms-flex-preferred-size: 0;
-    flex-basis: 0;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-sm-row > .flego-sm-1 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 8.33333%;
-    -moz-flex-basis: 8.33333%;
-    -ms-flex-preferred-size: 8.33333%;
-    flex-basis: 8.33333%;
-    max-width: 8.33333%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-sm-row > .flego-sm-2 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 16.66667%;
-    -moz-flex-basis: 16.66667%;
-    -ms-flex-preferred-size: 16.66667%;
-    flex-basis: 16.66667%;
-    max-width: 16.66667%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-sm-row > .flego-sm-3 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 25%;
-    -moz-flex-basis: 25%;
-    -ms-flex-preferred-size: 25%;
-    flex-basis: 25%;
-    max-width: 25%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-sm-row > .flego-sm-4 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 33.33333%;
-    -moz-flex-basis: 33.33333%;
-    -ms-flex-preferred-size: 33.33333%;
-    flex-basis: 33.33333%;
-    max-width: 33.33333%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-sm-row > .flego-sm-5 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 41.66667%;
-    -moz-flex-basis: 41.66667%;
-    -ms-flex-preferred-size: 41.66667%;
-    flex-basis: 41.66667%;
-    max-width: 41.66667%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-sm-row > .flego-sm-6 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 50%;
-    -moz-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    max-width: 50%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-sm-row > .flego-sm-7 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 58.33333%;
-    -moz-flex-basis: 58.33333%;
-    -ms-flex-preferred-size: 58.33333%;
-    flex-basis: 58.33333%;
-    max-width: 58.33333%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-sm-row > .flego-sm-8 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 66.66667%;
-    -moz-flex-basis: 66.66667%;
-    -ms-flex-preferred-size: 66.66667%;
-    flex-basis: 66.66667%;
-    max-width: 66.66667%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-sm-row > .flego-sm-9 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 75%;
-    -moz-flex-basis: 75%;
-    -ms-flex-preferred-size: 75%;
-    flex-basis: 75%;
-    max-width: 75%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-sm-row > .flego-sm-10 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 83.33333%;
-    -moz-flex-basis: 83.33333%;
-    -ms-flex-preferred-size: 83.33333%;
-    flex-basis: 83.33333%;
-    max-width: 83.33333%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-sm-row > .flego-sm-11 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 91.66667%;
-    -moz-flex-basis: 91.66667%;
-    -ms-flex-preferred-size: 91.66667%;
-    flex-basis: 91.66667%;
-    max-width: 91.66667%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-sm-row > .flego-sm-12 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 100%;
-    -moz-flex-basis: 100%;
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    max-width: 100%;
-  }
-  /* line 108, ../sass/flegobox.scss */
-  .flego-sm-row.reverse {
-    -webkit-box-orient: horizontal;
-    -moz-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -moz-box-direction: reverse;
-    -webkit-flex-direction: row-reverse;
-    -moz-flex-direction: row-reverse;
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse;
-  }
-  /* line 113, ../sass/flegobox.scss */
-  .flego-sm-row.start {
-    -webkit-box-pack: start;
-    -moz-box-pack: start;
-    -webkit-flex-pack: start;
-    -ms-flex-pack: start;
-    -moz-justify-content: flex-start;
-    -webkit-justify-content: flex-start;
-    justify-content: flex-start;
-  }
-  /* line 117, ../sass/flegobox.scss */
-  .flego-sm-row.center {
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -webkit-flex-pack: center;
-    -ms-flex-pack: center;
-    -moz-justify-content: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-  }
-  /* line 121, ../sass/flegobox.scss */
-  .flego-sm-row.end {
-    -webkit-box-pack: end;
-    -moz-box-pack: end;
-    -webkit-flex-pack: end;
-    -ms-flex-pack: end;
-    -moz-justify-content: flex-end;
-    -webkit-justify-content: flex-end;
-    justify-content: flex-end;
-  }
-  /* line 125, ../sass/flegobox.scss */
-  .flego-sm-row.top {
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    -webkit-align-items: flex-start;
-    -moz-align-items: flex-start;
-    align-items: flex-start;
-  }
-  /* line 129, ../sass/flegobox.scss */
-  .flego-sm-row.middle {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    align-items: center;
-  }
-  /* line 133, ../sass/flegobox.scss */
-  .flego-sm-row.bottom {
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    -webkit-align-items: flex-end;
-    -moz-align-items: flex-end;
-    align-items: flex-end;
-  }
+    flex-wrap: wrap; }
+    .flego-sm-row > .flego-sm {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 0;
+      -moz-flex-basis: 0;
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0; }
+    .flego-sm-row > .flego-sm-1 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 8.33333%;
+      -moz-flex-basis: 8.33333%;
+      -ms-flex-preferred-size: 8.33333%;
+      flex-basis: 8.33333%;
+      max-width: 8.33333%; }
+    .flego-sm-row > .flego-sm-2 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 16.66667%;
+      -moz-flex-basis: 16.66667%;
+      -ms-flex-preferred-size: 16.66667%;
+      flex-basis: 16.66667%;
+      max-width: 16.66667%; }
+    .flego-sm-row > .flego-sm-3 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 25%;
+      -moz-flex-basis: 25%;
+      -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+      max-width: 25%; }
+    .flego-sm-row > .flego-sm-4 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 33.33333%;
+      -moz-flex-basis: 33.33333%;
+      -ms-flex-preferred-size: 33.33333%;
+      flex-basis: 33.33333%;
+      max-width: 33.33333%; }
+    .flego-sm-row > .flego-sm-5 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 41.66667%;
+      -moz-flex-basis: 41.66667%;
+      -ms-flex-preferred-size: 41.66667%;
+      flex-basis: 41.66667%;
+      max-width: 41.66667%; }
+    .flego-sm-row > .flego-sm-6 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 50%;
+      -moz-flex-basis: 50%;
+      -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+      max-width: 50%; }
+    .flego-sm-row > .flego-sm-7 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 58.33333%;
+      -moz-flex-basis: 58.33333%;
+      -ms-flex-preferred-size: 58.33333%;
+      flex-basis: 58.33333%;
+      max-width: 58.33333%; }
+    .flego-sm-row > .flego-sm-8 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 66.66667%;
+      -moz-flex-basis: 66.66667%;
+      -ms-flex-preferred-size: 66.66667%;
+      flex-basis: 66.66667%;
+      max-width: 66.66667%; }
+    .flego-sm-row > .flego-sm-9 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 75%;
+      -moz-flex-basis: 75%;
+      -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+      max-width: 75%; }
+    .flego-sm-row > .flego-sm-10 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 83.33333%;
+      -moz-flex-basis: 83.33333%;
+      -ms-flex-preferred-size: 83.33333%;
+      flex-basis: 83.33333%;
+      max-width: 83.33333%; }
+    .flego-sm-row > .flego-sm-11 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 91.66667%;
+      -moz-flex-basis: 91.66667%;
+      -ms-flex-preferred-size: 91.66667%;
+      flex-basis: 91.66667%;
+      max-width: 91.66667%; }
+    .flego-sm-row > .flego-sm-12 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 100%;
+      -moz-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+      max-width: 100%; }
+    .flego-sm-row.reverse {
+      -webkit-box-orient: horizontal;
+      -moz-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+      -moz-box-direction: reverse;
+      -webkit-flex-direction: row-reverse;
+      -moz-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse; }
+    .flego-sm-row.start {
+      -webkit-box-pack: start;
+      -moz-box-pack: start;
+      -webkit-flex-pack: start;
+      -ms-flex-pack: start;
+      -moz-justify-content: flex-start;
+      -webkit-justify-content: flex-start;
+      justify-content: flex-start; }
+    .flego-sm-row.center {
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      -webkit-flex-pack: center;
+      -ms-flex-pack: center;
+      -moz-justify-content: center;
+      -webkit-justify-content: center;
+      justify-content: center; }
+    .flego-sm-row.end {
+      -webkit-box-pack: end;
+      -moz-box-pack: end;
+      -webkit-flex-pack: end;
+      -ms-flex-pack: end;
+      -moz-justify-content: flex-end;
+      -webkit-justify-content: flex-end;
+      justify-content: flex-end; }
+    .flego-sm-row.top {
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      -webkit-align-items: flex-start;
+      -moz-align-items: flex-start;
+      align-items: flex-start; }
+    .flego-sm-row.middle {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      align-items: center; }
+    .flego-sm-row.bottom {
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      -webkit-align-items: flex-end;
+      -moz-align-items: flex-end;
+      align-items: flex-end; }
 
-  /* line 138, ../sass/flegobox.scss */
   .flego-sm-column {
     box-sizing: border-box;
     display: -webkit-box;
@@ -925,289 +774,240 @@ Made with <3 by Octobot
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  /* line 144, ../sass/flegobox.scss */
-  .flego-sm-column.reverse {
-    -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  /* line 148, ../sass/flegobox.scss */
-  .flego-sm-column > .flego {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: auto;
-    -moz-flex-basis: auto;
-    -ms-flex-preferred-size: auto;
-    flex-basis: auto;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-sm-column > .flego-sm-1 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 8.33333%;
-    -moz-flex-basis: 8.33333%;
-    -ms-flex-preferred-size: 8.33333%;
-    flex-basis: 8.33333%;
-    max-height: 8.33333%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-sm-column > .flego-sm-2 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 16.66667%;
-    -moz-flex-basis: 16.66667%;
-    -ms-flex-preferred-size: 16.66667%;
-    flex-basis: 16.66667%;
-    max-height: 16.66667%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-sm-column > .flego-sm-3 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 25%;
-    -moz-flex-basis: 25%;
-    -ms-flex-preferred-size: 25%;
-    flex-basis: 25%;
-    max-height: 25%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-sm-column > .flego-sm-4 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 33.33333%;
-    -moz-flex-basis: 33.33333%;
-    -ms-flex-preferred-size: 33.33333%;
-    flex-basis: 33.33333%;
-    max-height: 33.33333%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-sm-column > .flego-sm-5 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 41.66667%;
-    -moz-flex-basis: 41.66667%;
-    -ms-flex-preferred-size: 41.66667%;
-    flex-basis: 41.66667%;
-    max-height: 41.66667%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-sm-column > .flego-sm-6 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 50%;
-    -moz-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    max-height: 50%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-sm-column > .flego-sm-7 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 58.33333%;
-    -moz-flex-basis: 58.33333%;
-    -ms-flex-preferred-size: 58.33333%;
-    flex-basis: 58.33333%;
-    max-height: 58.33333%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-sm-column > .flego-sm-8 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 66.66667%;
-    -moz-flex-basis: 66.66667%;
-    -ms-flex-preferred-size: 66.66667%;
-    flex-basis: 66.66667%;
-    max-height: 66.66667%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-sm-column > .flego-sm-9 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 75%;
-    -moz-flex-basis: 75%;
-    -ms-flex-preferred-size: 75%;
-    flex-basis: 75%;
-    max-height: 75%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-sm-column > .flego-sm-10 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 83.33333%;
-    -moz-flex-basis: 83.33333%;
-    -ms-flex-preferred-size: 83.33333%;
-    flex-basis: 83.33333%;
-    max-height: 83.33333%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-sm-column > .flego-sm-11 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 91.66667%;
-    -moz-flex-basis: 91.66667%;
-    -ms-flex-preferred-size: 91.66667%;
-    flex-basis: 91.66667%;
-    max-height: 91.66667%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-sm-column > .flego-sm-12 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 100%;
-    -moz-flex-basis: 100%;
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    max-height: 100%;
-    box-sizing: border-box;
-  }
-  /* line 164, ../sass/flegobox.scss */
-  .flego-sm-column > * {
-    max-width: 100%;
-  }
-  /* line 168, ../sass/flegobox.scss */
-  .flego-sm-column.center, .flego-sm-column.start, .flego-sm-column.end {
-    -webkit-box-align: inherit;
-    -ms-flex-align: inherit;
-    -webkit-align-items: inherit;
-    -moz-align-items: inherit;
-    align-items: inherit;
-    -webkit-box-pack: inherit;
-    -moz-box-pack: inherit;
-    -webkit-flex-pack: inherit;
-    -ms-flex-pack: inherit;
-    -moz-justify-content: inherit;
-    -webkit-justify-content: inherit;
-    justify-content: inherit;
-  }
-  /* line 176, ../sass/flegobox.scss */
-  .flego-sm-column.top {
-    -webkit-box-pack: start;
-    -moz-box-pack: start;
-    -webkit-flex-pack: start;
-    -ms-flex-pack: start;
-    -moz-justify-content: flex-start;
-    -webkit-justify-content: flex-start;
-    justify-content: flex-start;
-    -webkit-box-align: inherit;
-    -ms-flex-align: inherit;
-    -webkit-align-items: inherit;
-    -moz-align-items: inherit;
-    align-items: inherit;
-  }
-  /* line 181, ../sass/flegobox.scss */
-  .flego-sm-column.middle {
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -webkit-flex-pack: center;
-    -ms-flex-pack: center;
-    -moz-justify-content: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: inherit;
-    -ms-flex-align: inherit;
-    -webkit-align-items: inherit;
-    -moz-align-items: inherit;
-    align-items: inherit;
-  }
-  /* line 186, ../sass/flegobox.scss */
-  .flego-sm-column.bottom {
-    -webkit-box-pack: end;
-    -moz-box-pack: end;
-    -webkit-flex-pack: end;
-    -ms-flex-pack: end;
-    -moz-justify-content: flex-end;
-    -webkit-justify-content: flex-end;
-    justify-content: flex-end;
-    -webkit-box-align: inherit;
-    -ms-flex-align: inherit;
-    -webkit-align-items: inherit;
-    -moz-align-items: inherit;
-    align-items: inherit;
-  }
-}
+    flex-direction: column; }
+    .flego-sm-column.reverse {
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+    .flego-sm-column > .flego {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: auto;
+      -moz-flex-basis: auto;
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto; }
+    .flego-sm-column > .flego-sm-1 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 8.33333%;
+      -moz-flex-basis: 8.33333%;
+      -ms-flex-preferred-size: 8.33333%;
+      flex-basis: 8.33333%;
+      max-height: 8.33333%;
+      box-sizing: border-box; }
+    .flego-sm-column > .flego-sm-2 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 16.66667%;
+      -moz-flex-basis: 16.66667%;
+      -ms-flex-preferred-size: 16.66667%;
+      flex-basis: 16.66667%;
+      max-height: 16.66667%;
+      box-sizing: border-box; }
+    .flego-sm-column > .flego-sm-3 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 25%;
+      -moz-flex-basis: 25%;
+      -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+      max-height: 25%;
+      box-sizing: border-box; }
+    .flego-sm-column > .flego-sm-4 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 33.33333%;
+      -moz-flex-basis: 33.33333%;
+      -ms-flex-preferred-size: 33.33333%;
+      flex-basis: 33.33333%;
+      max-height: 33.33333%;
+      box-sizing: border-box; }
+    .flego-sm-column > .flego-sm-5 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 41.66667%;
+      -moz-flex-basis: 41.66667%;
+      -ms-flex-preferred-size: 41.66667%;
+      flex-basis: 41.66667%;
+      max-height: 41.66667%;
+      box-sizing: border-box; }
+    .flego-sm-column > .flego-sm-6 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 50%;
+      -moz-flex-basis: 50%;
+      -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+      max-height: 50%;
+      box-sizing: border-box; }
+    .flego-sm-column > .flego-sm-7 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 58.33333%;
+      -moz-flex-basis: 58.33333%;
+      -ms-flex-preferred-size: 58.33333%;
+      flex-basis: 58.33333%;
+      max-height: 58.33333%;
+      box-sizing: border-box; }
+    .flego-sm-column > .flego-sm-8 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 66.66667%;
+      -moz-flex-basis: 66.66667%;
+      -ms-flex-preferred-size: 66.66667%;
+      flex-basis: 66.66667%;
+      max-height: 66.66667%;
+      box-sizing: border-box; }
+    .flego-sm-column > .flego-sm-9 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 75%;
+      -moz-flex-basis: 75%;
+      -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+      max-height: 75%;
+      box-sizing: border-box; }
+    .flego-sm-column > .flego-sm-10 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 83.33333%;
+      -moz-flex-basis: 83.33333%;
+      -ms-flex-preferred-size: 83.33333%;
+      flex-basis: 83.33333%;
+      max-height: 83.33333%;
+      box-sizing: border-box; }
+    .flego-sm-column > .flego-sm-11 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 91.66667%;
+      -moz-flex-basis: 91.66667%;
+      -ms-flex-preferred-size: 91.66667%;
+      flex-basis: 91.66667%;
+      max-height: 91.66667%;
+      box-sizing: border-box; }
+    .flego-sm-column > .flego-sm-12 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 100%;
+      -moz-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+      max-height: 100%;
+      box-sizing: border-box; }
+    .flego-sm-column > * {
+      max-width: 100%; }
+    .flego-sm-column.center, .flego-sm-column.start, .flego-sm-column.end {
+      -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+      -webkit-align-items: inherit;
+      -moz-align-items: inherit;
+      align-items: inherit;
+      -webkit-box-pack: inherit;
+      -moz-box-pack: inherit;
+      -webkit-flex-pack: inherit;
+      -ms-flex-pack: inherit;
+      -moz-justify-content: inherit;
+      -webkit-justify-content: inherit;
+      justify-content: inherit; }
+    .flego-sm-column.top {
+      -webkit-box-pack: start;
+      -moz-box-pack: start;
+      -webkit-flex-pack: start;
+      -ms-flex-pack: start;
+      -moz-justify-content: flex-start;
+      -webkit-justify-content: flex-start;
+      justify-content: flex-start;
+      -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+      -webkit-align-items: inherit;
+      -moz-align-items: inherit;
+      align-items: inherit; }
+    .flego-sm-column.middle {
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      -webkit-flex-pack: center;
+      -ms-flex-pack: center;
+      -moz-justify-content: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+      -webkit-align-items: inherit;
+      -moz-align-items: inherit;
+      align-items: inherit; }
+    .flego-sm-column.bottom {
+      -webkit-box-pack: end;
+      -moz-box-pack: end;
+      -webkit-flex-pack: end;
+      -ms-flex-pack: end;
+      -moz-justify-content: flex-end;
+      -webkit-justify-content: flex-end;
+      justify-content: flex-end;
+      -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+      -webkit-align-items: inherit;
+      -moz-align-items: inherit;
+      align-items: inherit; } }
 @media (min-width: 600px) and (max-width: 959px) {
-  /* line 78, ../sass/flegobox.scss */
   .first-md {
     -webkit-box-ordinal-group: 0;
     -moz-box-ordinal-group: -1;
     -ms-flex-order: -1;
     -webkit-order: -1;
     -moz-order: -1;
-    order: -1;
-  }
+    order: -1; }
 
-  /* line 82, ../sass/flegobox.scss */
   .last-md {
     -webkit-box-ordinal-group: 2;
     -moz-box-ordinal-group: 1;
     -ms-flex-order: 1;
     -webkit-order: 1;
     -moz-order: 1;
-    order: 1;
-  }
+    order: 1; }
 
-  /* line 86, ../sass/flegobox.scss */
   .flego-md-row {
     box-sizing: border-box;
     display: -webkit-box;
@@ -1225,256 +1025,214 @@ Made with <3 by Octobot
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  /* line 92, ../sass/flegobox.scss */
-  .flego-md-row > .flego-md {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 0;
-    -moz-flex-basis: 0;
-    -ms-flex-preferred-size: 0;
-    flex-basis: 0;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-md-row > .flego-md-1 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 8.33333%;
-    -moz-flex-basis: 8.33333%;
-    -ms-flex-preferred-size: 8.33333%;
-    flex-basis: 8.33333%;
-    max-width: 8.33333%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-md-row > .flego-md-2 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 16.66667%;
-    -moz-flex-basis: 16.66667%;
-    -ms-flex-preferred-size: 16.66667%;
-    flex-basis: 16.66667%;
-    max-width: 16.66667%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-md-row > .flego-md-3 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 25%;
-    -moz-flex-basis: 25%;
-    -ms-flex-preferred-size: 25%;
-    flex-basis: 25%;
-    max-width: 25%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-md-row > .flego-md-4 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 33.33333%;
-    -moz-flex-basis: 33.33333%;
-    -ms-flex-preferred-size: 33.33333%;
-    flex-basis: 33.33333%;
-    max-width: 33.33333%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-md-row > .flego-md-5 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 41.66667%;
-    -moz-flex-basis: 41.66667%;
-    -ms-flex-preferred-size: 41.66667%;
-    flex-basis: 41.66667%;
-    max-width: 41.66667%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-md-row > .flego-md-6 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 50%;
-    -moz-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    max-width: 50%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-md-row > .flego-md-7 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 58.33333%;
-    -moz-flex-basis: 58.33333%;
-    -ms-flex-preferred-size: 58.33333%;
-    flex-basis: 58.33333%;
-    max-width: 58.33333%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-md-row > .flego-md-8 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 66.66667%;
-    -moz-flex-basis: 66.66667%;
-    -ms-flex-preferred-size: 66.66667%;
-    flex-basis: 66.66667%;
-    max-width: 66.66667%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-md-row > .flego-md-9 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 75%;
-    -moz-flex-basis: 75%;
-    -ms-flex-preferred-size: 75%;
-    flex-basis: 75%;
-    max-width: 75%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-md-row > .flego-md-10 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 83.33333%;
-    -moz-flex-basis: 83.33333%;
-    -ms-flex-preferred-size: 83.33333%;
-    flex-basis: 83.33333%;
-    max-width: 83.33333%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-md-row > .flego-md-11 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 91.66667%;
-    -moz-flex-basis: 91.66667%;
-    -ms-flex-preferred-size: 91.66667%;
-    flex-basis: 91.66667%;
-    max-width: 91.66667%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-md-row > .flego-md-12 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 100%;
-    -moz-flex-basis: 100%;
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    max-width: 100%;
-  }
-  /* line 108, ../sass/flegobox.scss */
-  .flego-md-row.reverse {
-    -webkit-box-orient: horizontal;
-    -moz-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -moz-box-direction: reverse;
-    -webkit-flex-direction: row-reverse;
-    -moz-flex-direction: row-reverse;
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse;
-  }
-  /* line 113, ../sass/flegobox.scss */
-  .flego-md-row.start {
-    -webkit-box-pack: start;
-    -moz-box-pack: start;
-    -webkit-flex-pack: start;
-    -ms-flex-pack: start;
-    -moz-justify-content: flex-start;
-    -webkit-justify-content: flex-start;
-    justify-content: flex-start;
-  }
-  /* line 117, ../sass/flegobox.scss */
-  .flego-md-row.center {
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -webkit-flex-pack: center;
-    -ms-flex-pack: center;
-    -moz-justify-content: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-  }
-  /* line 121, ../sass/flegobox.scss */
-  .flego-md-row.end {
-    -webkit-box-pack: end;
-    -moz-box-pack: end;
-    -webkit-flex-pack: end;
-    -ms-flex-pack: end;
-    -moz-justify-content: flex-end;
-    -webkit-justify-content: flex-end;
-    justify-content: flex-end;
-  }
-  /* line 125, ../sass/flegobox.scss */
-  .flego-md-row.top {
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    -webkit-align-items: flex-start;
-    -moz-align-items: flex-start;
-    align-items: flex-start;
-  }
-  /* line 129, ../sass/flegobox.scss */
-  .flego-md-row.middle {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    align-items: center;
-  }
-  /* line 133, ../sass/flegobox.scss */
-  .flego-md-row.bottom {
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    -webkit-align-items: flex-end;
-    -moz-align-items: flex-end;
-    align-items: flex-end;
-  }
+    flex-wrap: wrap; }
+    .flego-md-row > .flego-md {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 0;
+      -moz-flex-basis: 0;
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0; }
+    .flego-md-row > .flego-md-1 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 8.33333%;
+      -moz-flex-basis: 8.33333%;
+      -ms-flex-preferred-size: 8.33333%;
+      flex-basis: 8.33333%;
+      max-width: 8.33333%; }
+    .flego-md-row > .flego-md-2 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 16.66667%;
+      -moz-flex-basis: 16.66667%;
+      -ms-flex-preferred-size: 16.66667%;
+      flex-basis: 16.66667%;
+      max-width: 16.66667%; }
+    .flego-md-row > .flego-md-3 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 25%;
+      -moz-flex-basis: 25%;
+      -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+      max-width: 25%; }
+    .flego-md-row > .flego-md-4 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 33.33333%;
+      -moz-flex-basis: 33.33333%;
+      -ms-flex-preferred-size: 33.33333%;
+      flex-basis: 33.33333%;
+      max-width: 33.33333%; }
+    .flego-md-row > .flego-md-5 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 41.66667%;
+      -moz-flex-basis: 41.66667%;
+      -ms-flex-preferred-size: 41.66667%;
+      flex-basis: 41.66667%;
+      max-width: 41.66667%; }
+    .flego-md-row > .flego-md-6 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 50%;
+      -moz-flex-basis: 50%;
+      -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+      max-width: 50%; }
+    .flego-md-row > .flego-md-7 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 58.33333%;
+      -moz-flex-basis: 58.33333%;
+      -ms-flex-preferred-size: 58.33333%;
+      flex-basis: 58.33333%;
+      max-width: 58.33333%; }
+    .flego-md-row > .flego-md-8 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 66.66667%;
+      -moz-flex-basis: 66.66667%;
+      -ms-flex-preferred-size: 66.66667%;
+      flex-basis: 66.66667%;
+      max-width: 66.66667%; }
+    .flego-md-row > .flego-md-9 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 75%;
+      -moz-flex-basis: 75%;
+      -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+      max-width: 75%; }
+    .flego-md-row > .flego-md-10 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 83.33333%;
+      -moz-flex-basis: 83.33333%;
+      -ms-flex-preferred-size: 83.33333%;
+      flex-basis: 83.33333%;
+      max-width: 83.33333%; }
+    .flego-md-row > .flego-md-11 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 91.66667%;
+      -moz-flex-basis: 91.66667%;
+      -ms-flex-preferred-size: 91.66667%;
+      flex-basis: 91.66667%;
+      max-width: 91.66667%; }
+    .flego-md-row > .flego-md-12 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 100%;
+      -moz-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+      max-width: 100%; }
+    .flego-md-row.reverse {
+      -webkit-box-orient: horizontal;
+      -moz-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+      -moz-box-direction: reverse;
+      -webkit-flex-direction: row-reverse;
+      -moz-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse; }
+    .flego-md-row.start {
+      -webkit-box-pack: start;
+      -moz-box-pack: start;
+      -webkit-flex-pack: start;
+      -ms-flex-pack: start;
+      -moz-justify-content: flex-start;
+      -webkit-justify-content: flex-start;
+      justify-content: flex-start; }
+    .flego-md-row.center {
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      -webkit-flex-pack: center;
+      -ms-flex-pack: center;
+      -moz-justify-content: center;
+      -webkit-justify-content: center;
+      justify-content: center; }
+    .flego-md-row.end {
+      -webkit-box-pack: end;
+      -moz-box-pack: end;
+      -webkit-flex-pack: end;
+      -ms-flex-pack: end;
+      -moz-justify-content: flex-end;
+      -webkit-justify-content: flex-end;
+      justify-content: flex-end; }
+    .flego-md-row.top {
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      -webkit-align-items: flex-start;
+      -moz-align-items: flex-start;
+      align-items: flex-start; }
+    .flego-md-row.middle {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      align-items: center; }
+    .flego-md-row.bottom {
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      -webkit-align-items: flex-end;
+      -moz-align-items: flex-end;
+      align-items: flex-end; }
 
-  /* line 138, ../sass/flegobox.scss */
   .flego-md-column {
     box-sizing: border-box;
     display: -webkit-box;
@@ -1488,289 +1246,240 @@ Made with <3 by Octobot
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  /* line 144, ../sass/flegobox.scss */
-  .flego-md-column.reverse {
-    -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  /* line 148, ../sass/flegobox.scss */
-  .flego-md-column > .flego {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: auto;
-    -moz-flex-basis: auto;
-    -ms-flex-preferred-size: auto;
-    flex-basis: auto;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-md-column > .flego-md-1 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 8.33333%;
-    -moz-flex-basis: 8.33333%;
-    -ms-flex-preferred-size: 8.33333%;
-    flex-basis: 8.33333%;
-    max-height: 8.33333%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-md-column > .flego-md-2 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 16.66667%;
-    -moz-flex-basis: 16.66667%;
-    -ms-flex-preferred-size: 16.66667%;
-    flex-basis: 16.66667%;
-    max-height: 16.66667%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-md-column > .flego-md-3 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 25%;
-    -moz-flex-basis: 25%;
-    -ms-flex-preferred-size: 25%;
-    flex-basis: 25%;
-    max-height: 25%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-md-column > .flego-md-4 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 33.33333%;
-    -moz-flex-basis: 33.33333%;
-    -ms-flex-preferred-size: 33.33333%;
-    flex-basis: 33.33333%;
-    max-height: 33.33333%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-md-column > .flego-md-5 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 41.66667%;
-    -moz-flex-basis: 41.66667%;
-    -ms-flex-preferred-size: 41.66667%;
-    flex-basis: 41.66667%;
-    max-height: 41.66667%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-md-column > .flego-md-6 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 50%;
-    -moz-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    max-height: 50%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-md-column > .flego-md-7 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 58.33333%;
-    -moz-flex-basis: 58.33333%;
-    -ms-flex-preferred-size: 58.33333%;
-    flex-basis: 58.33333%;
-    max-height: 58.33333%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-md-column > .flego-md-8 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 66.66667%;
-    -moz-flex-basis: 66.66667%;
-    -ms-flex-preferred-size: 66.66667%;
-    flex-basis: 66.66667%;
-    max-height: 66.66667%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-md-column > .flego-md-9 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 75%;
-    -moz-flex-basis: 75%;
-    -ms-flex-preferred-size: 75%;
-    flex-basis: 75%;
-    max-height: 75%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-md-column > .flego-md-10 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 83.33333%;
-    -moz-flex-basis: 83.33333%;
-    -ms-flex-preferred-size: 83.33333%;
-    flex-basis: 83.33333%;
-    max-height: 83.33333%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-md-column > .flego-md-11 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 91.66667%;
-    -moz-flex-basis: 91.66667%;
-    -ms-flex-preferred-size: 91.66667%;
-    flex-basis: 91.66667%;
-    max-height: 91.66667%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-md-column > .flego-md-12 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 100%;
-    -moz-flex-basis: 100%;
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    max-height: 100%;
-    box-sizing: border-box;
-  }
-  /* line 164, ../sass/flegobox.scss */
-  .flego-md-column > * {
-    max-width: 100%;
-  }
-  /* line 168, ../sass/flegobox.scss */
-  .flego-md-column.center, .flego-md-column.start, .flego-md-column.end {
-    -webkit-box-align: inherit;
-    -ms-flex-align: inherit;
-    -webkit-align-items: inherit;
-    -moz-align-items: inherit;
-    align-items: inherit;
-    -webkit-box-pack: inherit;
-    -moz-box-pack: inherit;
-    -webkit-flex-pack: inherit;
-    -ms-flex-pack: inherit;
-    -moz-justify-content: inherit;
-    -webkit-justify-content: inherit;
-    justify-content: inherit;
-  }
-  /* line 176, ../sass/flegobox.scss */
-  .flego-md-column.top {
-    -webkit-box-pack: start;
-    -moz-box-pack: start;
-    -webkit-flex-pack: start;
-    -ms-flex-pack: start;
-    -moz-justify-content: flex-start;
-    -webkit-justify-content: flex-start;
-    justify-content: flex-start;
-    -webkit-box-align: inherit;
-    -ms-flex-align: inherit;
-    -webkit-align-items: inherit;
-    -moz-align-items: inherit;
-    align-items: inherit;
-  }
-  /* line 181, ../sass/flegobox.scss */
-  .flego-md-column.middle {
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -webkit-flex-pack: center;
-    -ms-flex-pack: center;
-    -moz-justify-content: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: inherit;
-    -ms-flex-align: inherit;
-    -webkit-align-items: inherit;
-    -moz-align-items: inherit;
-    align-items: inherit;
-  }
-  /* line 186, ../sass/flegobox.scss */
-  .flego-md-column.bottom {
-    -webkit-box-pack: end;
-    -moz-box-pack: end;
-    -webkit-flex-pack: end;
-    -ms-flex-pack: end;
-    -moz-justify-content: flex-end;
-    -webkit-justify-content: flex-end;
-    justify-content: flex-end;
-    -webkit-box-align: inherit;
-    -ms-flex-align: inherit;
-    -webkit-align-items: inherit;
-    -moz-align-items: inherit;
-    align-items: inherit;
-  }
-}
+    flex-direction: column; }
+    .flego-md-column.reverse {
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+    .flego-md-column > .flego {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: auto;
+      -moz-flex-basis: auto;
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto; }
+    .flego-md-column > .flego-md-1 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 8.33333%;
+      -moz-flex-basis: 8.33333%;
+      -ms-flex-preferred-size: 8.33333%;
+      flex-basis: 8.33333%;
+      max-height: 8.33333%;
+      box-sizing: border-box; }
+    .flego-md-column > .flego-md-2 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 16.66667%;
+      -moz-flex-basis: 16.66667%;
+      -ms-flex-preferred-size: 16.66667%;
+      flex-basis: 16.66667%;
+      max-height: 16.66667%;
+      box-sizing: border-box; }
+    .flego-md-column > .flego-md-3 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 25%;
+      -moz-flex-basis: 25%;
+      -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+      max-height: 25%;
+      box-sizing: border-box; }
+    .flego-md-column > .flego-md-4 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 33.33333%;
+      -moz-flex-basis: 33.33333%;
+      -ms-flex-preferred-size: 33.33333%;
+      flex-basis: 33.33333%;
+      max-height: 33.33333%;
+      box-sizing: border-box; }
+    .flego-md-column > .flego-md-5 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 41.66667%;
+      -moz-flex-basis: 41.66667%;
+      -ms-flex-preferred-size: 41.66667%;
+      flex-basis: 41.66667%;
+      max-height: 41.66667%;
+      box-sizing: border-box; }
+    .flego-md-column > .flego-md-6 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 50%;
+      -moz-flex-basis: 50%;
+      -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+      max-height: 50%;
+      box-sizing: border-box; }
+    .flego-md-column > .flego-md-7 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 58.33333%;
+      -moz-flex-basis: 58.33333%;
+      -ms-flex-preferred-size: 58.33333%;
+      flex-basis: 58.33333%;
+      max-height: 58.33333%;
+      box-sizing: border-box; }
+    .flego-md-column > .flego-md-8 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 66.66667%;
+      -moz-flex-basis: 66.66667%;
+      -ms-flex-preferred-size: 66.66667%;
+      flex-basis: 66.66667%;
+      max-height: 66.66667%;
+      box-sizing: border-box; }
+    .flego-md-column > .flego-md-9 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 75%;
+      -moz-flex-basis: 75%;
+      -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+      max-height: 75%;
+      box-sizing: border-box; }
+    .flego-md-column > .flego-md-10 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 83.33333%;
+      -moz-flex-basis: 83.33333%;
+      -ms-flex-preferred-size: 83.33333%;
+      flex-basis: 83.33333%;
+      max-height: 83.33333%;
+      box-sizing: border-box; }
+    .flego-md-column > .flego-md-11 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 91.66667%;
+      -moz-flex-basis: 91.66667%;
+      -ms-flex-preferred-size: 91.66667%;
+      flex-basis: 91.66667%;
+      max-height: 91.66667%;
+      box-sizing: border-box; }
+    .flego-md-column > .flego-md-12 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 100%;
+      -moz-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+      max-height: 100%;
+      box-sizing: border-box; }
+    .flego-md-column > * {
+      max-width: 100%; }
+    .flego-md-column.center, .flego-md-column.start, .flego-md-column.end {
+      -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+      -webkit-align-items: inherit;
+      -moz-align-items: inherit;
+      align-items: inherit;
+      -webkit-box-pack: inherit;
+      -moz-box-pack: inherit;
+      -webkit-flex-pack: inherit;
+      -ms-flex-pack: inherit;
+      -moz-justify-content: inherit;
+      -webkit-justify-content: inherit;
+      justify-content: inherit; }
+    .flego-md-column.top {
+      -webkit-box-pack: start;
+      -moz-box-pack: start;
+      -webkit-flex-pack: start;
+      -ms-flex-pack: start;
+      -moz-justify-content: flex-start;
+      -webkit-justify-content: flex-start;
+      justify-content: flex-start;
+      -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+      -webkit-align-items: inherit;
+      -moz-align-items: inherit;
+      align-items: inherit; }
+    .flego-md-column.middle {
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      -webkit-flex-pack: center;
+      -ms-flex-pack: center;
+      -moz-justify-content: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+      -webkit-align-items: inherit;
+      -moz-align-items: inherit;
+      align-items: inherit; }
+    .flego-md-column.bottom {
+      -webkit-box-pack: end;
+      -moz-box-pack: end;
+      -webkit-flex-pack: end;
+      -ms-flex-pack: end;
+      -moz-justify-content: flex-end;
+      -webkit-justify-content: flex-end;
+      justify-content: flex-end;
+      -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+      -webkit-align-items: inherit;
+      -moz-align-items: inherit;
+      align-items: inherit; } }
 @media (min-width: 960px) and (max-width: 1199px) {
-  /* line 78, ../sass/flegobox.scss */
   .first-lg {
     -webkit-box-ordinal-group: 0;
     -moz-box-ordinal-group: -1;
     -ms-flex-order: -1;
     -webkit-order: -1;
     -moz-order: -1;
-    order: -1;
-  }
+    order: -1; }
 
-  /* line 82, ../sass/flegobox.scss */
   .last-lg {
     -webkit-box-ordinal-group: 2;
     -moz-box-ordinal-group: 1;
     -ms-flex-order: 1;
     -webkit-order: 1;
     -moz-order: 1;
-    order: 1;
-  }
+    order: 1; }
 
-  /* line 86, ../sass/flegobox.scss */
   .flego-lg-row {
     box-sizing: border-box;
     display: -webkit-box;
@@ -1788,256 +1497,214 @@ Made with <3 by Octobot
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  /* line 92, ../sass/flegobox.scss */
-  .flego-lg-row > .flego-lg {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 0;
-    -moz-flex-basis: 0;
-    -ms-flex-preferred-size: 0;
-    flex-basis: 0;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-lg-row > .flego-lg-1 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 8.33333%;
-    -moz-flex-basis: 8.33333%;
-    -ms-flex-preferred-size: 8.33333%;
-    flex-basis: 8.33333%;
-    max-width: 8.33333%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-lg-row > .flego-lg-2 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 16.66667%;
-    -moz-flex-basis: 16.66667%;
-    -ms-flex-preferred-size: 16.66667%;
-    flex-basis: 16.66667%;
-    max-width: 16.66667%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-lg-row > .flego-lg-3 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 25%;
-    -moz-flex-basis: 25%;
-    -ms-flex-preferred-size: 25%;
-    flex-basis: 25%;
-    max-width: 25%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-lg-row > .flego-lg-4 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 33.33333%;
-    -moz-flex-basis: 33.33333%;
-    -ms-flex-preferred-size: 33.33333%;
-    flex-basis: 33.33333%;
-    max-width: 33.33333%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-lg-row > .flego-lg-5 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 41.66667%;
-    -moz-flex-basis: 41.66667%;
-    -ms-flex-preferred-size: 41.66667%;
-    flex-basis: 41.66667%;
-    max-width: 41.66667%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-lg-row > .flego-lg-6 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 50%;
-    -moz-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    max-width: 50%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-lg-row > .flego-lg-7 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 58.33333%;
-    -moz-flex-basis: 58.33333%;
-    -ms-flex-preferred-size: 58.33333%;
-    flex-basis: 58.33333%;
-    max-width: 58.33333%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-lg-row > .flego-lg-8 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 66.66667%;
-    -moz-flex-basis: 66.66667%;
-    -ms-flex-preferred-size: 66.66667%;
-    flex-basis: 66.66667%;
-    max-width: 66.66667%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-lg-row > .flego-lg-9 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 75%;
-    -moz-flex-basis: 75%;
-    -ms-flex-preferred-size: 75%;
-    flex-basis: 75%;
-    max-width: 75%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-lg-row > .flego-lg-10 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 83.33333%;
-    -moz-flex-basis: 83.33333%;
-    -ms-flex-preferred-size: 83.33333%;
-    flex-basis: 83.33333%;
-    max-width: 83.33333%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-lg-row > .flego-lg-11 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 91.66667%;
-    -moz-flex-basis: 91.66667%;
-    -ms-flex-preferred-size: 91.66667%;
-    flex-basis: 91.66667%;
-    max-width: 91.66667%;
-  }
-  /* line 100, ../sass/flegobox.scss */
-  .flego-lg-row > .flego-lg-12 {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 100%;
-    -moz-flex-basis: 100%;
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    max-width: 100%;
-  }
-  /* line 108, ../sass/flegobox.scss */
-  .flego-lg-row.reverse {
-    -webkit-box-orient: horizontal;
-    -moz-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -moz-box-direction: reverse;
-    -webkit-flex-direction: row-reverse;
-    -moz-flex-direction: row-reverse;
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse;
-  }
-  /* line 113, ../sass/flegobox.scss */
-  .flego-lg-row.start {
-    -webkit-box-pack: start;
-    -moz-box-pack: start;
-    -webkit-flex-pack: start;
-    -ms-flex-pack: start;
-    -moz-justify-content: flex-start;
-    -webkit-justify-content: flex-start;
-    justify-content: flex-start;
-  }
-  /* line 117, ../sass/flegobox.scss */
-  .flego-lg-row.center {
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -webkit-flex-pack: center;
-    -ms-flex-pack: center;
-    -moz-justify-content: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-  }
-  /* line 121, ../sass/flegobox.scss */
-  .flego-lg-row.end {
-    -webkit-box-pack: end;
-    -moz-box-pack: end;
-    -webkit-flex-pack: end;
-    -ms-flex-pack: end;
-    -moz-justify-content: flex-end;
-    -webkit-justify-content: flex-end;
-    justify-content: flex-end;
-  }
-  /* line 125, ../sass/flegobox.scss */
-  .flego-lg-row.top {
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    -webkit-align-items: flex-start;
-    -moz-align-items: flex-start;
-    align-items: flex-start;
-  }
-  /* line 129, ../sass/flegobox.scss */
-  .flego-lg-row.middle {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    align-items: center;
-  }
-  /* line 133, ../sass/flegobox.scss */
-  .flego-lg-row.bottom {
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    -webkit-align-items: flex-end;
-    -moz-align-items: flex-end;
-    align-items: flex-end;
-  }
+    flex-wrap: wrap; }
+    .flego-lg-row > .flego-lg {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 0;
+      -moz-flex-basis: 0;
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0; }
+    .flego-lg-row > .flego-lg-1 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 8.33333%;
+      -moz-flex-basis: 8.33333%;
+      -ms-flex-preferred-size: 8.33333%;
+      flex-basis: 8.33333%;
+      max-width: 8.33333%; }
+    .flego-lg-row > .flego-lg-2 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 16.66667%;
+      -moz-flex-basis: 16.66667%;
+      -ms-flex-preferred-size: 16.66667%;
+      flex-basis: 16.66667%;
+      max-width: 16.66667%; }
+    .flego-lg-row > .flego-lg-3 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 25%;
+      -moz-flex-basis: 25%;
+      -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+      max-width: 25%; }
+    .flego-lg-row > .flego-lg-4 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 33.33333%;
+      -moz-flex-basis: 33.33333%;
+      -ms-flex-preferred-size: 33.33333%;
+      flex-basis: 33.33333%;
+      max-width: 33.33333%; }
+    .flego-lg-row > .flego-lg-5 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 41.66667%;
+      -moz-flex-basis: 41.66667%;
+      -ms-flex-preferred-size: 41.66667%;
+      flex-basis: 41.66667%;
+      max-width: 41.66667%; }
+    .flego-lg-row > .flego-lg-6 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 50%;
+      -moz-flex-basis: 50%;
+      -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+      max-width: 50%; }
+    .flego-lg-row > .flego-lg-7 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 58.33333%;
+      -moz-flex-basis: 58.33333%;
+      -ms-flex-preferred-size: 58.33333%;
+      flex-basis: 58.33333%;
+      max-width: 58.33333%; }
+    .flego-lg-row > .flego-lg-8 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 66.66667%;
+      -moz-flex-basis: 66.66667%;
+      -ms-flex-preferred-size: 66.66667%;
+      flex-basis: 66.66667%;
+      max-width: 66.66667%; }
+    .flego-lg-row > .flego-lg-9 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 75%;
+      -moz-flex-basis: 75%;
+      -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+      max-width: 75%; }
+    .flego-lg-row > .flego-lg-10 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 83.33333%;
+      -moz-flex-basis: 83.33333%;
+      -ms-flex-preferred-size: 83.33333%;
+      flex-basis: 83.33333%;
+      max-width: 83.33333%; }
+    .flego-lg-row > .flego-lg-11 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 91.66667%;
+      -moz-flex-basis: 91.66667%;
+      -ms-flex-preferred-size: 91.66667%;
+      flex-basis: 91.66667%;
+      max-width: 91.66667%; }
+    .flego-lg-row > .flego-lg-12 {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 100%;
+      -moz-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+      max-width: 100%; }
+    .flego-lg-row.reverse {
+      -webkit-box-orient: horizontal;
+      -moz-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+      -moz-box-direction: reverse;
+      -webkit-flex-direction: row-reverse;
+      -moz-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse; }
+    .flego-lg-row.start {
+      -webkit-box-pack: start;
+      -moz-box-pack: start;
+      -webkit-flex-pack: start;
+      -ms-flex-pack: start;
+      -moz-justify-content: flex-start;
+      -webkit-justify-content: flex-start;
+      justify-content: flex-start; }
+    .flego-lg-row.center {
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      -webkit-flex-pack: center;
+      -ms-flex-pack: center;
+      -moz-justify-content: center;
+      -webkit-justify-content: center;
+      justify-content: center; }
+    .flego-lg-row.end {
+      -webkit-box-pack: end;
+      -moz-box-pack: end;
+      -webkit-flex-pack: end;
+      -ms-flex-pack: end;
+      -moz-justify-content: flex-end;
+      -webkit-justify-content: flex-end;
+      justify-content: flex-end; }
+    .flego-lg-row.top {
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      -webkit-align-items: flex-start;
+      -moz-align-items: flex-start;
+      align-items: flex-start; }
+    .flego-lg-row.middle {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      align-items: center; }
+    .flego-lg-row.bottom {
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      -webkit-align-items: flex-end;
+      -moz-align-items: flex-end;
+      align-items: flex-end; }
 
-  /* line 138, ../sass/flegobox.scss */
   .flego-lg-column {
     box-sizing: border-box;
     display: -webkit-box;
@@ -2051,264 +1718,222 @@ Made with <3 by Octobot
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  /* line 144, ../sass/flegobox.scss */
-  .flego-lg-column.reverse {
-    -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  /* line 148, ../sass/flegobox.scss */
-  .flego-lg-column > .flego {
-    box-sizing: border-box;
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: auto;
-    -moz-flex-basis: auto;
-    -ms-flex-preferred-size: auto;
-    flex-basis: auto;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-lg-column > .flego-lg-1 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 8.33333%;
-    -moz-flex-basis: 8.33333%;
-    -ms-flex-preferred-size: 8.33333%;
-    flex-basis: 8.33333%;
-    max-height: 8.33333%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-lg-column > .flego-lg-2 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 16.66667%;
-    -moz-flex-basis: 16.66667%;
-    -ms-flex-preferred-size: 16.66667%;
-    flex-basis: 16.66667%;
-    max-height: 16.66667%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-lg-column > .flego-lg-3 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 25%;
-    -moz-flex-basis: 25%;
-    -ms-flex-preferred-size: 25%;
-    flex-basis: 25%;
-    max-height: 25%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-lg-column > .flego-lg-4 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 33.33333%;
-    -moz-flex-basis: 33.33333%;
-    -ms-flex-preferred-size: 33.33333%;
-    flex-basis: 33.33333%;
-    max-height: 33.33333%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-lg-column > .flego-lg-5 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 41.66667%;
-    -moz-flex-basis: 41.66667%;
-    -ms-flex-preferred-size: 41.66667%;
-    flex-basis: 41.66667%;
-    max-height: 41.66667%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-lg-column > .flego-lg-6 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 50%;
-    -moz-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    max-height: 50%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-lg-column > .flego-lg-7 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 58.33333%;
-    -moz-flex-basis: 58.33333%;
-    -ms-flex-preferred-size: 58.33333%;
-    flex-basis: 58.33333%;
-    max-height: 58.33333%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-lg-column > .flego-lg-8 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 66.66667%;
-    -moz-flex-basis: 66.66667%;
-    -ms-flex-preferred-size: 66.66667%;
-    flex-basis: 66.66667%;
-    max-height: 66.66667%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-lg-column > .flego-lg-9 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 75%;
-    -moz-flex-basis: 75%;
-    -ms-flex-preferred-size: 75%;
-    flex-basis: 75%;
-    max-height: 75%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-lg-column > .flego-lg-10 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 83.33333%;
-    -moz-flex-basis: 83.33333%;
-    -ms-flex-preferred-size: 83.33333%;
-    flex-basis: 83.33333%;
-    max-height: 83.33333%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-lg-column > .flego-lg-11 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 91.66667%;
-    -moz-flex-basis: 91.66667%;
-    -ms-flex-preferred-size: 91.66667%;
-    flex-basis: 91.66667%;
-    max-height: 91.66667%;
-    box-sizing: border-box;
-  }
-  /* line 156, ../sass/flegobox.scss */
-  .flego-lg-column > .flego-lg-12 {
-    -webkit-flex-grow: 1;
-    -webkit-box-flex: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 100%;
-    -moz-flex-basis: 100%;
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    max-height: 100%;
-    box-sizing: border-box;
-  }
-  /* line 164, ../sass/flegobox.scss */
-  .flego-lg-column > * {
-    max-width: 100%;
-  }
-  /* line 168, ../sass/flegobox.scss */
-  .flego-lg-column.center, .flego-lg-column.start, .flego-lg-column.end {
-    -webkit-box-align: inherit;
-    -ms-flex-align: inherit;
-    -webkit-align-items: inherit;
-    -moz-align-items: inherit;
-    align-items: inherit;
-    -webkit-box-pack: inherit;
-    -moz-box-pack: inherit;
-    -webkit-flex-pack: inherit;
-    -ms-flex-pack: inherit;
-    -moz-justify-content: inherit;
-    -webkit-justify-content: inherit;
-    justify-content: inherit;
-  }
-  /* line 176, ../sass/flegobox.scss */
-  .flego-lg-column.top {
-    -webkit-box-pack: start;
-    -moz-box-pack: start;
-    -webkit-flex-pack: start;
-    -ms-flex-pack: start;
-    -moz-justify-content: flex-start;
-    -webkit-justify-content: flex-start;
-    justify-content: flex-start;
-    -webkit-box-align: inherit;
-    -ms-flex-align: inherit;
-    -webkit-align-items: inherit;
-    -moz-align-items: inherit;
-    align-items: inherit;
-  }
-  /* line 181, ../sass/flegobox.scss */
-  .flego-lg-column.middle {
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -webkit-flex-pack: center;
-    -ms-flex-pack: center;
-    -moz-justify-content: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: inherit;
-    -ms-flex-align: inherit;
-    -webkit-align-items: inherit;
-    -moz-align-items: inherit;
-    align-items: inherit;
-  }
-  /* line 186, ../sass/flegobox.scss */
-  .flego-lg-column.bottom {
-    -webkit-box-pack: end;
-    -moz-box-pack: end;
-    -webkit-flex-pack: end;
-    -ms-flex-pack: end;
-    -moz-justify-content: flex-end;
-    -webkit-justify-content: flex-end;
-    justify-content: flex-end;
-    -webkit-box-align: inherit;
-    -ms-flex-align: inherit;
-    -webkit-align-items: inherit;
-    -moz-align-items: inherit;
-    align-items: inherit;
-  }
-}
+    flex-direction: column; }
+    .flego-lg-column.reverse {
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+    .flego-lg-column > .flego {
+      box-sizing: border-box;
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: auto;
+      -moz-flex-basis: auto;
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto; }
+    .flego-lg-column > .flego-lg-1 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 8.33333%;
+      -moz-flex-basis: 8.33333%;
+      -ms-flex-preferred-size: 8.33333%;
+      flex-basis: 8.33333%;
+      max-height: 8.33333%;
+      box-sizing: border-box; }
+    .flego-lg-column > .flego-lg-2 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 16.66667%;
+      -moz-flex-basis: 16.66667%;
+      -ms-flex-preferred-size: 16.66667%;
+      flex-basis: 16.66667%;
+      max-height: 16.66667%;
+      box-sizing: border-box; }
+    .flego-lg-column > .flego-lg-3 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 25%;
+      -moz-flex-basis: 25%;
+      -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+      max-height: 25%;
+      box-sizing: border-box; }
+    .flego-lg-column > .flego-lg-4 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 33.33333%;
+      -moz-flex-basis: 33.33333%;
+      -ms-flex-preferred-size: 33.33333%;
+      flex-basis: 33.33333%;
+      max-height: 33.33333%;
+      box-sizing: border-box; }
+    .flego-lg-column > .flego-lg-5 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 41.66667%;
+      -moz-flex-basis: 41.66667%;
+      -ms-flex-preferred-size: 41.66667%;
+      flex-basis: 41.66667%;
+      max-height: 41.66667%;
+      box-sizing: border-box; }
+    .flego-lg-column > .flego-lg-6 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 50%;
+      -moz-flex-basis: 50%;
+      -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+      max-height: 50%;
+      box-sizing: border-box; }
+    .flego-lg-column > .flego-lg-7 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 58.33333%;
+      -moz-flex-basis: 58.33333%;
+      -ms-flex-preferred-size: 58.33333%;
+      flex-basis: 58.33333%;
+      max-height: 58.33333%;
+      box-sizing: border-box; }
+    .flego-lg-column > .flego-lg-8 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 66.66667%;
+      -moz-flex-basis: 66.66667%;
+      -ms-flex-preferred-size: 66.66667%;
+      flex-basis: 66.66667%;
+      max-height: 66.66667%;
+      box-sizing: border-box; }
+    .flego-lg-column > .flego-lg-9 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 75%;
+      -moz-flex-basis: 75%;
+      -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+      max-height: 75%;
+      box-sizing: border-box; }
+    .flego-lg-column > .flego-lg-10 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 83.33333%;
+      -moz-flex-basis: 83.33333%;
+      -ms-flex-preferred-size: 83.33333%;
+      flex-basis: 83.33333%;
+      max-height: 83.33333%;
+      box-sizing: border-box; }
+    .flego-lg-column > .flego-lg-11 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 91.66667%;
+      -moz-flex-basis: 91.66667%;
+      -ms-flex-preferred-size: 91.66667%;
+      flex-basis: 91.66667%;
+      max-height: 91.66667%;
+      box-sizing: border-box; }
+    .flego-lg-column > .flego-lg-12 {
+      -webkit-flex-grow: 1;
+      -webkit-box-flex: 1;
+      -moz-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-flex-basis: 100%;
+      -moz-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+      max-height: 100%;
+      box-sizing: border-box; }
+    .flego-lg-column > * {
+      max-width: 100%; }
+    .flego-lg-column.center, .flego-lg-column.start, .flego-lg-column.end {
+      -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+      -webkit-align-items: inherit;
+      -moz-align-items: inherit;
+      align-items: inherit;
+      -webkit-box-pack: inherit;
+      -moz-box-pack: inherit;
+      -webkit-flex-pack: inherit;
+      -ms-flex-pack: inherit;
+      -moz-justify-content: inherit;
+      -webkit-justify-content: inherit;
+      justify-content: inherit; }
+    .flego-lg-column.top {
+      -webkit-box-pack: start;
+      -moz-box-pack: start;
+      -webkit-flex-pack: start;
+      -ms-flex-pack: start;
+      -moz-justify-content: flex-start;
+      -webkit-justify-content: flex-start;
+      justify-content: flex-start;
+      -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+      -webkit-align-items: inherit;
+      -moz-align-items: inherit;
+      align-items: inherit; }
+    .flego-lg-column.middle {
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      -webkit-flex-pack: center;
+      -ms-flex-pack: center;
+      -moz-justify-content: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+      -webkit-align-items: inherit;
+      -moz-align-items: inherit;
+      align-items: inherit; }
+    .flego-lg-column.bottom {
+      -webkit-box-pack: end;
+      -moz-box-pack: end;
+      -webkit-flex-pack: end;
+      -ms-flex-pack: end;
+      -moz-justify-content: flex-end;
+      -webkit-justify-content: flex-end;
+      justify-content: flex-end;
+      -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+      -webkit-align-items: inherit;
+      -moz-align-items: inherit;
+      align-items: inherit; } }
+
+/*# sourceMappingURL=flegobox.css.map */
