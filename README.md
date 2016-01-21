@@ -5,7 +5,7 @@ Flegobox is an open-source CSS framework, which enables developers to easily cre
 
 This framework includes classes for easy layout options, taking advantage of FlexBox features by ensuring that elements behave predictably when the page layout must accommodate different screen sizes and different display devices.
 
-Find below some examples, or clone the repo and see the demo in action. 
+Find below some examples or clone the repo and see the demo in action. [Live demo here!](https://www.octobot.io/demos/flegobox/demos/)
 
 ![alt tag](https://www.octobot.io/img/flegobox-demo-imgs/1.png)
 
