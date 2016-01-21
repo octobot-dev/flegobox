@@ -1,6 +1,12 @@
 # flegobox
 Simplified CSS FlexBox properties easy to use as Legos
 
+Flegobox is an open-source CSS framework, which enables developers to easily create simple but modern responsive layouts on top of CSS3 FlexBox. 
+
+This framework includes classes for easy layout options, taking advantage of FlexBox features by ensuring that elements behave predictably when the page layout must accommodate different screen sizes and different display devices.
+
+Find below some examples, or clone the repo and see the demo in action. 
+
 ![alt tag](https://www.octobot.io/img/flegobox-demo-imgs/1.png)
 
 .flego-column with fixed height and .flegos inside
