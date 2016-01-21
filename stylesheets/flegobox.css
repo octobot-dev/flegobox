@@ -301,7 +301,11 @@ Made with <3 by Octobot
   -webkit-flex-direction: column;
   -moz-flex-direction: column;
   -ms-flex-direction: column;
-  flex-direction: column; }
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
   .flego-column.reverse {
     -webkit-box-orient: vertical;
     -moz-box-orient: vertical;
@@ -774,7 +778,11 @@ Made with <3 by Octobot
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column; }
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
     .flego-sm-column.reverse {
       -webkit-box-orient: vertical;
       -moz-box-orient: vertical;
@@ -1246,7 +1254,11 @@ Made with <3 by Octobot
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column; }
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
     .flego-md-column.reverse {
       -webkit-box-orient: vertical;
       -moz-box-orient: vertical;
@@ -1718,7 +1730,11 @@ Made with <3 by Octobot
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column; }
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
     .flego-lg-column.reverse {
       -webkit-box-orient: vertical;
       -moz-box-orient: vertical;
