@@ -1,0 +1,22 @@
+{
+  "name": "flegobox",
+  "homepage": "https://github.com/octobot-dev/flegobox",
+  "authors": [
+    "Alexander Berguer <aberguer@octobot.io>"
+  ],
+  "description": "Simplified CSS FlexBox properties easy to use as Legos",
+  "main": "stylesheets/flegobox.css",
+  "keywords": [
+    "flexbox",
+    "css",
+    "octobot"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
