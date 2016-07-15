@@ -5,29 +5,29 @@ Flegobox is an open-source CSS framework, which enables developers to easily cre
 
 This framework includes classes for easy layout options, taking advantage of FlexBox features by ensuring that elements behave predictably when the page layout must accommodate different screen sizes and different display devices.
 
-Find below some examples or clone the repo and see the demo in action. [Live demo here!](https://www.octobot.io/demos/flegobox/demos/)
+Find below some examples or clone the repo and see the demo in action. [Live demo here!](http://demo.octobot.io/demos/flegobox/demos/)
 
-![alt tag](https://www.octobot.io/img/flegobox-demo-imgs/1.png)
+![alt tag](http://demo.octobot.io/demos/flegobox-demo-imgs/1.png)
 
 .flego-column with fixed height and .flegos inside
 
-![alt tag](https://www.octobot.io/img/flegobox-demo-imgs/2.png)
+![alt tag](http://demo.octobot.io/demos/flegobox-demo-imgs/2.png)
 
 Nest two .flego-column s within a .flego-row
 
-![alt tag](https://www.octobot.io/img/flegobox-demo-imgs/3.png)
+![alt tag](http://demo.octobot.io/demos/flegobox-demo-imgs/3.png)
 
 Nest two .flego-column s within a .flego-row one with a fix height, the other fluid
 
-![alt tag](https://www.octobot.io/img/flegobox-demo-imgs/4.png)
+![alt tag](http://demo.octobot.io/demos/flegobox-demo-imgs/4.png)
 
 Nest two .flego-column s within a .flego-row one with a fix height, the other stick it to bottom
 
-![alt tag](https://www.octobot.io/img/flegobox-demo-imgs/5.png)
+![alt tag](http://demo.octobot.io/demos/flegobox-demo-imgs/5.png)
 
 Let's play with rows
 
-![alt tag](https://www.octobot.io/img/flegobox-demo-imgs/6.png)
+![alt tag](http://demo.octobot.io/demos/flegobox-demo-imgs/6.png)
 
 Let's do a holy grail
 
